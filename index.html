@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <script src="https://kit.fontawesome.com/f1d1b90985.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./javascript.js"></script>
+</head>
+<body>
+    <div id="outerWrap">
+        <!-- video player -->
+        <div id="videoWrap">
+            <video
+                id="video"
+                muted
+            >
+                Sorry, your browser does not support video playback! Please upgrade your browser!
+                <source src="">
+                <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4">
+            </video>
+        </div>
+        <div id="voiceWrap">
+            <div id="voice"></div>
+        </div>
+        <!-- progress bar -->
+        <div id="progress">
+            <p id="bar"></p>
+        </div>
+        
+        <!-- buttons -->
+        <div class="button_outerWrap clearfix">
+            <div class="buttonWrap">
+                <button id="play">Play</button>
+                <button id="pause">Pause</button>
+                <button id="resize">Resize</button>
+                <button id="getHeight">GetHeight</button>
+                <button id="getWidth">GetWidth</button>
+                <button id="setAutoplay">setAutoplay</button>
+                <button id="setVolume">SetVolume</button>
+                <button id="getVolume">GetVolume</button>
+                <button id="setMute">SetMute</button>
+                <button id="getDuration">GetDuration</button>
+                <button id="setFullscreen">SetFullscreen</button>
+                <button id="getPlaybackState">GetState</button>
+            </div>
+        </div>
+    </div>
+    <div class="lowerBox">
+        <p>console:</p>
+        <p id="console"></p>
+    </div>
+</body>
+</html>
