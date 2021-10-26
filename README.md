@@ -1,7 +1,7 @@
 # video-player
 a video player with APIs
 
-<img src="C:\Users\calypso\AppData\Roaming\Typora\typora-user-images\image-20211026020219867.png" alt="image-20211026020219867" style="zoom:80%;" />
+![image](https://github.com/Calypso52/video-player/blob/master/readme%20picture.png)
 
 The video player has many APIs, marked by buttons:
 1. play
